@@ -71,7 +71,9 @@ for (const producto of boletos2){
 /* ----------------------------- */
 
 
-
+let parrafo = document.getElementById("parrafo");
+parrafo.className = "parrafo1";
+parrafo.innerHTML = `Bienvenido! ${nombre2}`;
 
 
 /* ------ Agrego la tarjeta en el HTML de los datos --------- */
