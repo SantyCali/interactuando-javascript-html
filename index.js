@@ -70,11 +70,11 @@ for (const producto of boletos2){
    let calculo = añoResta(año, edad);
 /* ----------------------------- */
 
-
+/* ------ Agrego el mensaje de Bienvenid@ */
 let parrafo = document.getElementById("parrafo");
 parrafo.className = "parrafo1";
-parrafo.innerHTML = `Bienvenido! ${nombre2}`;
-
+parrafo.innerHTML = `Bienvenid@! ${nombre2}`;
+/* ----------------------------------------- */
 
 /* ------ Agrego la tarjeta en el HTML de los datos --------- */
    let contenedor1 = document.getElementById("contenedor1");
