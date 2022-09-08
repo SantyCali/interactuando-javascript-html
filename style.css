@@ -1,0 +1,29 @@
+.fondo{
+    background-color: rgb(237, 138, 51);
+}
+
+.linea{
+    display: flex;
+}
+
+.tarjeta-arreglo{
+    background-color: rgb(211, 7, 7);
+    width: 330px;
+    height: 330px;
+    border-radius: 14px;
+    border: solid rgb(208, 207, 207);
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    margin: 5px;
+}
+
+.tarjeta-1{
+    background-color: rgb(227, 99, 99);
+    width: 330px;
+    height: 330px;
+    border-radius: 14px;
+    border: solid rgb(208, 207, 207);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
